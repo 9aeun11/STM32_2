@@ -1,0 +1,21 @@
+{
+  "extensionVersion": "1.5.4",
+  "fileName": "C:\\Users\\gaeun\\Desktop\\Engineering_Design_2\\STM32_2\\FPGA\\servo\\sim\\wave.vcd",
+  "markerTime": null,
+  "altMarkerTime": null,
+  "displayTimeUnit": "ns",
+  "selectedSignal": { "name": "tb.servo", "msb": -1, "lsb": -1 },
+  "zoomRatio": 1,
+  "scrollLeft": 0,
+  "defaultPixelTime": 100000,
+  "displayedSignals": [
+    { "dataType": "netlist-variable", "name": "tb.clk", "numberFormat": "binary", "colorIndex": 0, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "clk", "renderType": "binary", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.rst", "numberFormat": "binary", "colorIndex": 1, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "rst", "renderType": "binary", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.l", "numberFormat": "binary", "colorIndex": 2, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "left_button", "renderType": "binary", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.r", "numberFormat": "binary", "colorIndex": 3, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "right_button", "renderType": "binary", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.us", "msb": 31, "lsb": 0, "numberFormat": "hexadecimal", "colorIndex": 4, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "pulse_us", "renderType": "multiBit", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.servo", "numberFormat": "binary", "colorIndex": 5, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "servo_pwm", "renderType": "binary", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.pwm_dut.count", "msb": 31, "lsb": 0, "numberFormat": "hexadecimal", "colorIndex": 6, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "frame_count", "renderType": "multiBit", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.pwm_dut.width_cycles", "msb": 31, "lsb": 0, "numberFormat": "hexadecimal", "colorIndex": 7, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "pulse_width_cycles", "renderType": "multiBit", "valueLinkEnable": false }
+  ]
+}

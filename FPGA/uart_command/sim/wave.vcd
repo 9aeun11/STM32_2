@@ -1,0 +1,162 @@
+$date
+	Sun Oct 25 21:52:55 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb $end
+$var wire 1 ! rx_seen $end
+$var wire 1 " led $end
+$var wire 8 # last_byte [7:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % rst $end
+$var reg 8 & rx_data [7:0] $end
+$var reg 1 ' rx_valid $end
+$scope module dut $end
+$var wire 1 $ clk_50mhz $end
+$var wire 1 % rst_p $end
+$var wire 8 ( rx_data [7:0] $end
+$var wire 1 ' rx_valid $end
+$var reg 8 ) last_byte [7:0] $end
+$var reg 1 " led $end
+$var reg 1 ! rx_seen $end
+$upscope $end
+$scope task send $end
+$var reg 8 * value [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx *
+bx )
+b0 (
+0'
+b0 &
+1%
+0$
+bx #
+x"
+x!
+$end
+#5
+b0 #
+b0 )
+0!
+0"
+1$
+#10
+0$
+#15
+1$
+#20
+b110001 *
+0%
+0$
+#25
+1$
+#30
+1'
+b110001 &
+b110001 (
+0$
+#35
+1"
+1!
+b110001 #
+b110001 )
+1$
+#40
+0'
+0$
+#45
+0!
+1$
+#50
+1'
+0$
+#55
+1!
+1$
+#60
+0'
+0$
+#65
+0!
+1$
+#66
+b110010 *
+#70
+1'
+b110010 &
+b110010 (
+0$
+#75
+0"
+1!
+b110010 #
+b110010 )
+1$
+#80
+0'
+0$
+#85
+0!
+1$
+#90
+1'
+0$
+#95
+1"
+1!
+1$
+#100
+0'
+0$
+#105
+0!
+1$
+#106
+b110000 *
+#110
+1'
+b110000 &
+b110000 (
+0$
+#115
+0"
+1!
+b110000 #
+b110000 )
+1$
+#120
+0'
+0$
+#125
+0!
+1$
+#126
+b1000001 *
+#130
+1'
+b1000001 &
+b1000001 (
+0$
+#135
+1!
+b1000001 #
+b1000001 )
+1$
+#140
+0'
+0$
+#145
+0!
+1$
+#146

@@ -1,0 +1,49 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "hudson-river-trading.vscode-slang",
+      "lramseyer.vaporview",
+      "tomoki1207.pdf"
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "STM32_2: Run all Vivado simulations",
+        "type": "shell",
+        "command": "C:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+        "args": [
+          "-mode",
+          "batch",
+          "-source",
+          "${workspaceFolder}\\run_vivado_simulations.tcl"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "STM32_2 FPGA: Simulate servo, SRAM, DAC",
+        "type": "shell",
+        "command": "C:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+        "args": [
+          "-mode",
+          "batch",
+          "-source",
+          "${workspaceFolder}\\run_individual_fpga_simulations.tcl"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+}

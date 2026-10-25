@@ -1,0 +1,33 @@
+/build/
+mx.scratch
+!.settings
+
+# LaTeX intermediate files
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.fls
+*.fdb_latexmk
+*.xdv
+
+# Vivado and Icarus generated project state
+/FPGA/.Xil/
+/FPGA/vivado*.jou
+/FPGA/vivado*.log
+/FPGA/*/vivado/*.sim/
+/FPGA/*/vivado/*.runs/
+/FPGA/*/vivado/*.cache/
+/FPGA/*/vivado/*.gen/
+/FPGA/*/vivado/*.jou
+/FPGA/*/vivado/*.log
+/FPGA/*/vivado/*.str
+/FPGA/*/vivado/xsim.dir/
+/FPGA/*/sim/*.vvp
+
+# Keep the final simulation transcripts in the submission.
+!FPGA/*/sim/simulation.log

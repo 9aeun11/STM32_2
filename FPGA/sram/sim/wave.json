@@ -1,0 +1,23 @@
+{
+  "extensionVersion": "1.5.4",
+  "fileName": "C:\\Users\\gaeun\\Desktop\\Engineering_Design_2\\STM32_2\\FPGA\\sram\\sim\\wave.vcd",
+  "markerTime": null,
+  "altMarkerTime": null,
+  "displayTimeUnit": "ns",
+  "selectedSignal": { "name": "tb.bus", "msb": 15, "lsb": 0 },
+  "zoomRatio": 1,
+  "scrollLeft": 0,
+  "defaultPixelTime": 100000,
+  "displayedSignals": [
+    { "dataType": "netlist-variable", "name": "tb.wr", "numberFormat": "binary", "colorIndex": 0, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "write", "renderType": "binary", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.rd", "numberFormat": "binary", "colorIndex": 1, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "read", "renderType": "binary", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.address", "msb": 3, "lsb": 0, "numberFormat": "hexadecimal", "colorIndex": 2, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "address", "renderType": "multiBit", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.data_in", "msb": 3, "lsb": 0, "numberFormat": "hexadecimal", "colorIndex": 3, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "data_in", "renderType": "multiBit", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.cs_n", "numberFormat": "binary", "colorIndex": 4, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "CS_n", "renderType": "binary", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.oe_n", "numberFormat": "binary", "colorIndex": 5, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "OE_n", "renderType": "binary", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.we_n", "numberFormat": "binary", "colorIndex": 6, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "WE_n", "renderType": "binary", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.ram_address", "msb": 17, "lsb": 0, "numberFormat": "hexadecimal", "colorIndex": 7, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "SRAM_address", "renderType": "multiBit", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.bus", "msb": 15, "lsb": 0, "numberFormat": "hexadecimal", "colorIndex": 0, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "bidirectional_data_bus", "renderType": "multiBit", "valueLinkEnable": false },
+    { "dataType": "netlist-variable", "name": "tb.led", "msb": 7, "lsb": 0, "numberFormat": "hexadecimal", "colorIndex": 1, "rowHeight": 1, "verticalScale": 1, "nameType": "fullPath", "customName": "read_data_LED", "renderType": "multiBit", "valueLinkEnable": false }
+  ]
+}
