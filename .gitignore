@@ -31,3 +31,16 @@ mx.scratch
 
 # Keep the final simulation transcripts in the submission.
 !FPGA/*/sim/simulation.log
+
+# Generated state for the complete Task 6/7 Vivado projects
+/FPGA/task6/vivado.jou
+/FPGA/*/vivado/*.hw/
+/FPGA/*/vivado/*.ip_user_files/
+/FPGA/*/vivado_final/*.cache/
+/FPGA/*/vivado_final/*.sim/
+/FPGA/*/vivado_final/*.runs/
+/FPGA/*/vivado_final/*.hw/
+/FPGA/*/vivado_final/*.ip_user_files/
+/FPGA/*/vivado_final/*.jou
+/FPGA/*/vivado_final/*.log
+/FPGA/task7/vivado/

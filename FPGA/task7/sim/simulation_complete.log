@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+PASS Task 7 UART LED: ASCII 0/1/2, repeated commands, unknown hold, FPGA USB-UART echo; checks=6
+$finish called at time : 19870 ns : File "C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_2/FPGA/task7/sim/tb_task7_uart_led.sv" Line 71
+The current simulation has finished. Please use 'restart' to begin a new simulation.
+$finish called at time : 19870 ns : File "C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_2/FPGA/task7/sim/tb_task7_uart_led.sv" Line 71

@@ -1,14 +1,10 @@
-# Creates one simulation-only Vivado project per STM32_2 FPGA exercise.
-# The manual does not identify the FPGA board/part or expansion-header package pins.
-# Select the exact part and add the RX pin constraint from the equipment pin map
-# before synthesis or programming. No guessed XDC entries are added here.
+# Recreate the three independent FPGA exercise projects.
+# Task 6 and Task 7 are complete board projects under task6 and task7.
 set root [file normalize [file dirname [info script]]]
 set labs [list \
     [list servo servo/rtl/servo_ctrl.v servo/sim/tb.sv] \
     [list sram sram/rtl/sram.v sram/sim/tb.sv] \
-    [list dac dac/rtl/dac.v dac/sim/tb.sv] \
-    [list uart_command uart_command/rtl/uart_led_command.v uart_command/sim/tb.sv]]
-
+    [list dac dac/rtl/dac.v dac/sim/tb.sv]]
 foreach lab $labs {
     lassign $lab name rtl tb
     set project_dir [file join $root $name vivado]
@@ -23,4 +19,4 @@ foreach lab $labs {
     update_compile_order -fileset sim_1
     close_project
 }
-puts "Created four Vivado projects for xc7s75fgga484-1. Add peripheral XDC pin assignments from the equipment pin map before hardware use."
+puts "Created the three independent FPGA exercise projects. For Task 6/7 use their create_and_build.tcl scripts."
