@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+PASS Task 6 UART 9600-8N1: 1/A/a echoed from FPGA to PC; checks=3
+$finish called at time : 9970 ns : File "C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_2/FPGA/task6/sim/tb_task6_uart_echo.sv" Line 62
+The current simulation has finished. Please use 'restart' to begin a new simulation.
+$finish called at time : 9970 ns : File "C:/Users/gaeun/Desktop/Engineering_Design_2/STM32_2/FPGA/task6/sim/tb_task6_uart_echo.sv" Line 62
