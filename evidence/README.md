@@ -20,3 +20,9 @@ Screenshots are named by task, signal, or result so the matching evidence is cle
 - [Timing summary](timing_summary_no_constraints.png) reports no user timing constraints; it is not timing-closure evidence.
 
 The Vivado and Icarus source projects, testbenches, pin constraints, and simulation logs are in `../FPGA/`.
+
+## Additional FPGA code and UART LED evidence
+
+- FPGA source: [DAC](Code-FPGA-DAC.png), [servo](Code-FPGA-Servo.png), [SRAM](Code-FPGA-SRAM.png), and [Task 7 UART LED command logic](Code-Task7-FPGA-UART-LED.png).
+- UART LED command: [Icarus PASS log](Pass-FPGA-UART-LED-Icarus.png) and [waveform in ns](Wave-FPGA-UART-LED-ns.png).
+- SRAM: [write and read bus waveform in ns](Wave-FPGA-SRAM-ns.png), complementing the existing ps view.
